@@ -161,14 +161,14 @@ namespace MVCCriticografo.VistaModelo
             {
                 for (int i = 0; i < resultadofinal.Length - 1; i++)
                 {
-                    TextoConvertido += resultadofinal[i] + ",";
+                    TextoConvertido += resultadofinal[i] + ",  ";
                 }
             }
             else
             {
                 for (int i = 1; i < resultadofinal.Length - 1; i++)
                 {
-                    TextoConvertido += resultadofinal[i] + ",";
+                    TextoConvertido += resultadofinal[i] + ",  ";
                 }
 
             }
